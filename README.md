@@ -16,3 +16,7 @@ Use of this package requires the installation of the OpenG MD5 Library, which ca
 Use with Baxter Research Robot
 ==============================
 This package has been developed with the use of Baxter Research Robot. Much of his functionality has already been implemented and can be found in the devices folder. If using Baxter's cameras, the included vis make use of a vision package previously developed at the Center for Engineering Education and Outreach which can be downloaded at http://www.legoengineering.com/image-processing-in-labview/
+
+CompactRIO
+==========
+At this time the package is not able to be deployed to a cRIO as information is pushed and pulled from the servers through Front Panel controls. It should be possible to switch out the front panel calls with shared variables to get around this problem.
