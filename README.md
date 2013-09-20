@@ -6,6 +6,8 @@ A Labview solution for communicating with ROS applications. Developed at Tufts U
 Although all of the examples here, and many of the file names, are related to Baxter Research Robot (Rethink Robotics), none of the core functionality is dependent on using Baxter as opposed to other ROS systems. This package currently supports publishing and subscribing on topics as well as service clients. It does not currently support the creation of custom service providers or the ability to use Labview as the ROS master. In addition, publishers and subscribers only support a single connection. Any requests for a topic connection after the first has been established will be ignored.
 
 ROSforLV_0.1 should be installed in your "Labview > user.lib" folder (Under applications in Mac OS X and program files in Windows). Labview will need to restart after installing the library.
+
+Please send feedback on our mailing list at https://groups.google.com/forum/#!forum/ros-sig-rosforlabview
 <!---
 
 REQUIRED EXTERNAL PACKAGES
