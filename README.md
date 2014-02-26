@@ -7,6 +7,7 @@ Changes from Master Branch
   - Support for multiple concurrent connections on Publishers, Subscribers
   - Simplified topic initialization - specify topic, message type, etc in cluster to ROSTopicInit rather than in global   array
   - Node now runs the XMLRPC server and hands off connections as they are made, rather than each topic running its own
+  - Primitive message types for parsing, building now in std_msgs folder rather than their own primitives folder
 
 ROSforLV should be installed in your "Labview > user.lib" folder (Under applications in Mac OS X and program files in Windows). Labview will need to restart after installing the library.
 
