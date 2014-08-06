@@ -25,3 +25,7 @@ Use of this package requires the installation of the OpenG MD5 Library, which ca
 Use with Baxter Research Robot
 ==============================
 This package has been developed with the use of Baxter Research Robot. Much of his functionality has already been implemented and can be found in the devices folder. If using Baxter's cameras, the included vis make use of a vision package previously developed at the Center for Engineering Education and Outreach which can be downloaded at http://www.legoengineering.com/image-processing-in-labview/
+
+ROS Master
+==========
+This branch includes an experimental ROS Master meant to be used on a myRIO. It includes basic support for registering and unregistering subscribers, publishers, and services. It can be tested out by running main.vi from the ROS_Master folder. 
