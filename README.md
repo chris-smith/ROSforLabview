@@ -1,3 +1,7 @@
+Active development on ROSforLabview is being continued at Tufts University.
+
+You can find that work at https://github.com/tuftsBaxter/ROSforLabVIEW
+
 ROSforLabview
 =============
 
